@@ -43,7 +43,12 @@ echo "\n";
                 }
             }
         }
-        $sort_geom = array(array($arr[6],$arr[3],$arr[1],$arr[0]), array($arr[10],$arr[7],$arr[4],$arr[2]), array($arr[13],$arr[11],$arr[8],$arr[5]), array($arr[15],$arr[14],$arr[12],$arr[9]));
+        $sort_geom = array(
+            array($arr[6],$arr[3],$arr[1],$arr[0]),
+            array($arr[10],$arr[7],$arr[4],$arr[2]),
+            array($arr[13],$arr[11],$arr[8],$arr[5]),
+            array($arr[15],$arr[14],$arr[12],$arr[9])
+        );
 
         return $sort_geom;
     }
