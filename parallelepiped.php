@@ -23,7 +23,7 @@ class parallelepiped {
     function getWeight(){
         $volume = $this->a*$this->b*$this->c;
         $weight = $volume * $this->gustina;
-        return $weight;
+        return (int)$weight;
 
     }
 

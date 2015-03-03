@@ -19,7 +19,7 @@ class kulia {
     function getWeight(){
         $volume = 4.2*pow($this->r, 3);
         $weight = $volume*$this->gustina;
-        return $weight;
+        return (int)$weight;
     }
 
 } 
